@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+
+.display-none {
+    @apply hidden;
+}
+
+
+/* Scroll Bar */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+
+::-webkit-scrollbar-track {
+background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+background: rgb(14 165 233);
+/* background: rgb(107 114 128); */
+border-radius: 100px;
+}

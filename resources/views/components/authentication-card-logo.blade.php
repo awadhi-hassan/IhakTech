@@ -1,0 +1,1 @@
+<img class="h-20 w-auto" src="{{ asset('storage/logo.png') }}" alt="">
