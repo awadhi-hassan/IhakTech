@@ -23,6 +23,8 @@ export default {
             spacing: {
                 '500': '500px',
                 '100': '100px',
+                '300': '300px',
+                'sect': 'calc(100vh - 65px)',
             },
 
             keyframes: {

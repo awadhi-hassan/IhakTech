@@ -22,5 +22,8 @@ class AppServiceProvider extends ServiceProvider
         view()->composer('components.herosection', function ($view) {
             $view->with('slides', scandir("/home/kali/Desktop/Projects/Ihaknas/storage/app/public/slideshow"));
         });
+        view()->composer('components.graphics', function ($view) {
+            $view->with('icons', scandir("/home/kali/Desktop/Projects/Ihaknas/storage/app/public/icons"));
+        });
     }
 }

@@ -11,6 +11,7 @@
         @endforeach
         @php
             $services = [
+                "Revolutionize your digital presence with our expert app development services. From concept to code, we turn your vision into stunning, user-friendly apps that drive success in the digital age. Elevate your business, engage your audience, and stay ahead of the competition with our innovative app solutions.",
                 "We are dedicated to safeguarding what matters most to you. Our cutting-edge 24 hour CCTV surveillance services offer a robust layer of protection for your home or business in high definition clarity.",
                 "Elevate your brand's visual identity with the power of innovative graphics design encompassing a spectrum of creative possibilities, from eye-catching posters and flyers to distinctive business cards and beyond.",
                 "We bring your brand to life on a grand scale. Our large format printing services are tailored to make your message stand out, whether it's on banners, teardrops, roll-ups, stickers or other captivating displays.",
@@ -22,8 +23,8 @@
         @foreach ($services as $service)
             <p id="text" class="mt-2 mb-4 sm:mb-8 text-sm sm:text-base h-100 sm:h-24 font-semibold">{{ $service }}</p>
         @endforeach
-        @for ($i = 0; $i < 6; $i++)
-            <x-button class="gs animate-drop transition duration-100">GET SERVICE</x-button>
+        @for ($i = 0; $i < 7; $i++)
+            <x-button class="mt-3 gs animate-drop transition duration-100">GET SERVICE</x-button>
         @endfor
     </div>
 
